@@ -29,7 +29,7 @@ pipeline {
         echo 'deploying the application ....'
         bat """
           whoami
-          copy * G:\HOST
+          copy * G:\\HOST
         """
       }
     }
